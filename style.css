@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.menu-container{
+    background-color:rgb(126, 113, 113);
+    padding: 18px;
+    color:white;
+    list-style:none;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.logo-p{
+    width:200px
+}
+.menus{
+    display:flex;
+}
+.item{
+    margin-right: 30px;
+    padding-right: 18px;
+    font-size:20px;
+    cursor: pointer;
+}
+.item:hover{
+    color:cornflowerblue;
+}
+.banner-img{
+    width: 600px;
+}
+.banner-container{
+    padding-right: 18px;
+    padding-left: 18px;
+    display:flex;
+    justify-content: space-around;
+    height: 100vh;
+    /* border: 2px solid black; */
+    align-items: center;
+    background-color: lavender;
+
+}
+.banner-text{
+    width:400px;
+}
+.text{
+    font-size: 50px ;
+}
+.discrip{
+    font-size:18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color:rgb(197, 160, 231) ;
+    color:white;
+    /* border:none; */
+    font-weight: bold;
+
+}
+.title{
+    
+    /* padding-left: 400px; */
+    /* align-items: center; */
+    background-color: lightseagreen ;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+}
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.giv{
+    width:400px;
+    
+}
+.live{
+    width: 500px;
+    padding-top: 30px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-image:url(abstract.avif);
+   text-align:center;
+   /* text-decoration-line: 50px; */
+
+}
+.icon{
+    
+    padding:40px;
+}
+.lie{
+    margin-top: 0px;
+    width:100px;
+    height:50px;
+    font-weight: bold;
+    
+}
+.s-container{
+    display:flex;
+    justify-content: space-around;
+    padding:20px;
+    background-color: rgb(199, 203, 204)
+}
+.lis{
+    list-style:none;
+    padding-top: 15px;
+    cursor: pointer;
+    
+
+}
+.r-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(80, 77, 77);
+    color:white;
+}
+.liv{
+    width: 500px;
+    padding-top:30px;
+    padding-left: 50px;
+    
+}
+.lit{
+    padding-top: 46px;
+    padding-left: 50px;
+    /* height:50px; */
+    text-align: justify;
+   
+}
+.up{
+    text-align: center;
+}
